@@ -19,5 +19,5 @@ Hi, I'm learning DevOps.
 - Installed Git on my laptop
 - Cloned this repo locally
 - Learning Git on Windows with Git Bash
-Author: anantdev-star
+Author: Anant Dubey
 
