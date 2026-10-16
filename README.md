@@ -24,3 +24,9 @@ Author: Anant Dubey
  
 
 Updated from GitHub web editor
+
+## Skills I'm Learning
+- Git and GitHub
+- Linux commands
+- Docker
+- Kubernetes
