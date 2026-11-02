@@ -1,0 +1,19 @@
+name: My First CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Say Hello
+      run: echo "Hello! The robot is running."
+
+    - name: Build Docker Image
+      run: docker build -t my-custom-app .
